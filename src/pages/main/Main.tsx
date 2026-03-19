@@ -1,7 +1,7 @@
-import { IData } from '..';
-import { Header } from '../header/Header/Header';
-import { offers } from '../placeCard/offers';
-import { PlaceCard } from '../placeCard/PlaceCard';
+import { IData } from '../..';
+import { Header } from '../../components/header/Header';
+import { offers } from '../../placeCard/offers';
+import { PlaceCard } from '../../placeCard/PlaceCard';
 
 export function Main({found, city}: IData) {
   return (
